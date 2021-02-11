@@ -1,5 +1,5 @@
-# JavaScript Practice Questions
+# JavaScript Functions Practice Questions
 
-I am completing some coding exercises from the JavaScript the Hard Parts course on Frontend Masters.
+I am completing coding exercises from the "JavaScript: The Hard Parts v2" course on Frontend Masters.
 
-The exercises cover higher-order functions and callbacks.
+The exercises covers creating functions, higher-order functions and callbacks.
