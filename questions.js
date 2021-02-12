@@ -4,7 +4,7 @@ console.log('Hello, world!');
 
 // Challenge 1
 function addTwo(num) {
-
+	return num + 2;
 }
 
 // To check if you've completed it, uncomment these console.logs!
@@ -14,7 +14,7 @@ function addTwo(num) {
 
 // Challenge 2
 function addS(word) {
-
+	return word + "s";
 }
 
 // uncomment these to check your work
@@ -24,7 +24,11 @@ function addS(word) {
 
 // Challenge 3
 function map(array, callback) {
-
+	mappedArray = [];
+	for (let i = 0; i < array.length; i++) {
+		mappedArray.push(callback(array[i]));
+	}
+	return mappedArray;
 }
 
 // console.log(map([1, 2, 3], addTwo));
@@ -32,7 +36,9 @@ function map(array, callback) {
 
 // Challenge 4
 function forEach(array, callback) {
-
+	for (let i = 0; i < array.length; i++) {
+		callback(array[i]);
+	}
 }
 
 // see for yourself if your forEach works!
@@ -40,7 +46,7 @@ function forEach(array, callback) {
 
 // Challenge 5
 function mapWith(array, callback) {
-
+	
 }
 
 
