@@ -1,0 +1,13 @@
+// Functions can be returned from other functions in JS
+// This example also demonstrates closure
+
+function createFunction() {
+  function multiplyBy2(num) {
+    return num * 2;
+  }
+  return multiplyBy2;
+}
+
+const generatedFunc = createFunction();
+const result = generatedFunc(3);
+console.log(result)
